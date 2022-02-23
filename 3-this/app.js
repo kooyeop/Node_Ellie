@@ -17,4 +17,7 @@ class A {
 }
 const a = new A(1);
 a.memberFunction();
-//
+
+console.log('------ global scope -----------');
+console.log(this);
+console.log(this === module.exports);
